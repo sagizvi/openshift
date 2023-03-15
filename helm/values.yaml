@@ -3,7 +3,7 @@ ReplicaNumber: 3
 containers:
   containerPort: 8080
   image: 'quay.io/sagi_zvi/hello-world'
-  tag: 'v4'
+  tag: 'v5'
 
 service:
   servicePort: 8080
