@@ -24,7 +24,7 @@ spec:
               protocol: TCP
           imagePullPolicy: IfNotPresent
 # update with the iamge you build in part 1
-          image: "quay.io/sagi_zvi/hello-world:v1"
+          image: 'quay.io/sagi_zvi/hello-world:v1'
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
